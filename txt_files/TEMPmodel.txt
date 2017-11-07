@@ -1,0 +1,10 @@
+
+model {
+  for ( i in 1:Ntotal) {
+  # likelihood function
+  y[i] ~ dbern(theta) 
+  }
+  # prior
+  theta ~ dbeta(1, 1)
+}
+
