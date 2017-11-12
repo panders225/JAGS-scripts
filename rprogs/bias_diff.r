@@ -32,6 +32,6 @@ diagMCMC(mcmcCoda, parName="theta[1]")
 
 smryMCMC(mcmcCoda, compVal = NULL, compValDiff = 0.0)
 
-
+plotMCMC(mcmcCoda, data=dset, compVal = NULL, compValDiff = 0.0)
 
 
